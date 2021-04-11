@@ -1,0 +1,25 @@
+数据库是SQL service
+用户名sa密码huangjiwei
+数据库为student，建立四个表，admin，C，S，SC
+设计如下
+admin：
+Field	Type	Null	Key	Comment 
+Username	char(10)	——	PRI	用户名
+Password	char(10)	——	——	密码
+Name	Char(10)	——	——	用户昵称
+S：
+Field	Type	                Null          Key	Comment 
+Sno	nvarchar(50)	——	PRI	学号
+Sname	nvarchar(50)	——	——	姓名
+Sx	nvarchar(50)	——	——	系别
+C：
+Field	Type	               Null	Key	Comment 
+Cno	nvarchar(50)	——	PRI	课号
+Cname	nvarchar(50)	——	——	课名
+SC：
+Field	Type	                Null	Key	Comment 
+Cno	nvarchar(50)	——	PRI	课号
+Sno	nvarchar(50)	——	PRI	学号
+C	nvarchar(50)	——	——	成绩
+music类可添加四首音乐文件，另外还可以添加三张背景图.
+
